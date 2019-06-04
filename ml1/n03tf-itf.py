@@ -2,6 +2,8 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 import jieba
 from sklearn.preprocessing import MinMaxScaler  # 归一化
+from sklearn.preprocessing import StandardScaler,Imputer  # 归一化
+import numpy as np
 
 
 def cutword():
@@ -46,7 +48,29 @@ def mm():
     print(data)
     return None
 
+def stand():
+    '''
+    标准化缩放
+    :return: None
+    '''
+    std = StandardScaler()
+    data = std.fit_transform([[1., -1., 3.], [2., 4., 2.], [4., 6., -1.]])
+    print(data)
+
+
+def im():
+    '''
+    缺失值处理
+    :return: None
+    '''
+    # NaN, nan
+    im = Imputer(missing_values='NaN', strategy='mean', axis=0)
+    data = im.fit_transform([[1,2],[np.nan, 3], [7,6]])
+    print(data)
+    return None
+
 if __name__ == '__main__':
     # tfidfvec()
-    mm()
-
+    # mm()
+    # stand()
+    im()
