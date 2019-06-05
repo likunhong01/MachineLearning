@@ -3,7 +3,9 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 import jieba
 from sklearn.preprocessing import MinMaxScaler  # 归一化
 from sklearn.preprocessing import StandardScaler,Imputer  # 归一化
+from sklearn.feature_selection import VarianceThreshold
 import numpy as np
+from sklearn.decomposition import PCA
 
 
 def cutword():
@@ -69,9 +71,29 @@ def im():
     print(data)
     return None
 
+def var():
+    '''
+    特征选择-删除低方差的特征
+    :return: None
+    '''
+    var = VarianceThreshold(threshold=0.0)
+    data = var.fit_transform([[0,2,0,3], [0,1,4,3],[0,1,1,3]])
+    print(data)
+    return None
+
+def pca():
+    '''
+    主成分分析进行特征降维
+    :return: None
+    '''
+    pca =  PCA(n_components=0.9)
+    data = pca.fit_transform([[2,8,4,5],[6,3,0,8],[5,4,9,1]])
+    print(data)
+
 
 if __name__ == '__main__':
     # tfidfvec()
     # mm()
     # stand()
-    im()
+    # im()
+    var()
