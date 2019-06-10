@@ -2,6 +2,8 @@
 #Version:python3.7.0
 #Tools:Pycharm 2019
 # Author:LIKUNHONG
+
+
 __date__ = ''
 __author__ = 'lkh'
 
@@ -9,6 +11,7 @@ from sklearn.datasets import fetch_20newsgroups
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import classification_report
 
 def naviebayes():
     '''
@@ -38,6 +41,11 @@ def naviebayes():
     print('文章类别为：', y_predict)
     # 得出准确率
     print('准确率为：', mlt.score(x_test, y_test))
+
+    # 精确率和召回率
+    print('每个类别的精确率和召回率', classification_report(y_test, y_predict, target_names=news.target_names))
+
+
 
 if __name__ == '__main__':
     naviebayes()
