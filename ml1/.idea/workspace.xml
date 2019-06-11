@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc85f15c-db87-469b-ad0f-65e81cb9aaa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05数据划分.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no04数据降纬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n04数据降纬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n05数据划分.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n06k-近邻算法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n07朴素贝叶斯.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n08分类模型估计（精确率和召回率）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n09决策树.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,61 +17,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n01trans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="44" selection-end-line="51" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n02分词.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n03tf-itf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="56" column="21" selection-end-line="76" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no04数据降纬.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05数据划分.py">
+        <entry file="file://$PROJECT_DIR$/n09决策树.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="132">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding>
-                <element signature="e#108#146#0" expanded="true" />
+                <element signature="e#74#126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +50,7 @@
         <option value="$PROJECT_DIR$/n03tf-itf.py" />
         <option value="$PROJECT_DIR$/no04数据降纬.py" />
         <option value="$PROJECT_DIR$/05数据划分.py" />
+        <option value="$PROJECT_DIR$/n09决策树.py" />
       </list>
     </option>
   </component>
@@ -105,8 +62,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="592" />
+    <option name="y" value="157" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,7 +73,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +84,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,16 +222,18 @@
       <workItem from="1559630212786" duration="3716000" />
       <workItem from="1559634673654" duration="3111000" />
       <workItem from="1559715404985" duration="4487000" />
+      <workItem from="1560169456740" duration="2658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11314000" />
+    <option name="totallyTimeSpent" value="13972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1736672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17609046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -308,10 +269,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/transform.py" />
+    <entry file="file://$PROJECT_DIR$/no04数据降纬.py" />
+    <entry file="file://$PROJECT_DIR$/05数据划分.py" />
     <entry file="file://$PROJECT_DIR$/n01trans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="44" selection-end-line="51" />
+        <state relative-caret-position="77">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
@@ -338,22 +301,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no04数据降纬.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/n08分类模型估计（精确率和召回率）.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/05数据划分.py">
+    <entry file="file://$PROJECT_DIR$/n09决策树.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="132">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding>
-            <element signature="e#108#146#0" expanded="true" />
+            <element signature="e#74#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
