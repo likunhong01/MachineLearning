@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc85f15c-db87-469b-ad0f-65e81cb9aaa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/n02线性回归/01.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/n04数据降纬.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/n05数据划分.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/n06k-近邻算法.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/n07朴素贝叶斯.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/n08分类模型估计（精确率和召回率）.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/n09决策树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n10线性回归.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n11逻辑回归.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/n02线性回归/01.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/n10线性回归.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="39" column="38" selection-start-line="38" selection-end-line="39" selection-end-column="38" />
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="e#108#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/n11逻辑回归.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding>
+                <element signature="e#108#199#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +84,8 @@
         <option value="$PROJECT_DIR$/05数据划分.py" />
         <option value="$PROJECT_DIR$/n09决策树.py" />
         <option value="$PROJECT_DIR$/n02线性回归/01.py" />
+        <option value="$PROJECT_DIR$/n10线性回归.py" />
+        <option value="$PROJECT_DIR$/n11逻辑回归.py" />
       </list>
     </option>
   </component>
@@ -99,11 +114,6 @@
               <item name="ml1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ml1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ml1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml1" type="462c0819:PsiDirectoryNode" />
-              <item name="n02线性回归" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -118,6 +128,9 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -247,15 +260,16 @@
       <workItem from="1559715404985" duration="4487000" />
       <workItem from="1560169456740" duration="3417000" />
       <workItem from="1560328828709" duration="3428000" />
-      <workItem from="1560517255148" duration="358000" />
+      <workItem from="1560517255148" duration="592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18517000" />
+    <option name="totallyTimeSpent" value="18751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18093699" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -349,12 +363,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n02线性回归/01.py">
+    <entry file="file://$PROJECT_DIR$/n10线性回归.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="39" column="38" selection-start-line="38" selection-end-line="39" selection-end-column="38" />
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="e#108#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n11逻辑回归.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#108#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
